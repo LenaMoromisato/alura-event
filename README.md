@@ -1,3 +1,23 @@
+# Curso React: gerenciando estado com Recoil (Programa Desenvolve da Boticário e Alura)
+
+> Status do projeto: concluído
+
+Conteúdo do curso:
+
+* **Analisar e entender código que outras pessoas desenvolveram:** <br>
+O dia a dia de pessoas desenvolvedoras requer muita leitura de código, e não somente escrever coisas novas.
+
+* **Criar atoms:** <br>
+Átomos são as porções que compõem o estado compartilhado do recoil.
+
+* **Acessar atoms:** <br>
+Nós utilizamos o hook useRecoilValue para ter acesso à lista de eventos.
+
+* **Modificar atoms:** <br>
+Nós utilizamos o hook useSetRecoilState para adicionar novos itens à lista de eventos.
+
+-----
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
