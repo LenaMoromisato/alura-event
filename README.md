@@ -16,6 +16,17 @@ Nós utilizamos o hook useRecoilValue para ter acesso à lista de eventos.
 * **Modificar atoms:** <br>
 Nós utilizamos o hook useSetRecoilState para adicionar novos itens à lista de eventos.
 
+* **Remover eventos do estado:** <br>
+Existem várias formas de operar listas, e nós removemos utilizando o método filter. Se quiser se aprofundar mais nesses tipos de algoritmos, vale a pena conhecer os seguintes métodos: <br>
+**indexOf:** para obter um determinado índice de um elemento num array.
+**slice:** para obter, a partir de um índice ou intervalo, uma quantidade N de elementos.
+
+* **Atualizar um evento específico:** <br>
+Vimos que a lista que recebemos é imutável, mas podemos definir uma nova lista reposicionando o evento alterado.
+
+* **Hook customizado:** <br>
+Criamos um hook reaproveitável e responsável por atualizar um evento, inclusive encapsulando o recoil.
+
 -----
 
 # Getting Started with Create React App
