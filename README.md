@@ -27,6 +27,12 @@ Vimos que a lista que recebemos é imutável, mas podemos definir uma nova lista
 * **Hook customizado:** <br>
 Criamos um hook reaproveitável e responsável por atualizar um evento, inclusive encapsulando o recoil.
 
+* **Diminuir o acoplamento da aplicação:** <br>
+Ao extrair a comunicação com o recoil em hooks, estamos desacoplados da lib em si. Se trocarmos por qualquer outra solução, estaremos prontos. Só precisamos alterar os hooks, e não os componentes.
+
+* **Aumentar a coesão:** <br>
+Ao remover a responsabilidade de alterar o estado para os hooks, nossos componentes ficam mais coesos e não precisam se preocupar com as implementações relacionadas a manipular o estado.
+
 -----
 
 # Getting Started with Create React App
