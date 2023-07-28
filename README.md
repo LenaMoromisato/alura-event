@@ -39,6 +39,15 @@ Mantendo assim a responsabilidade bem definida para cada parte do sistema.
 * **Adicionar funcionalidades de forma incremental:** <br>
 Primeiro, colocamos o filtro para funcionar. Na sequência, melhoramos a implementação e extraímos a lógica.
 
+* **Criar seletores assíncronos:** <br>
+Integrando assim o recoil com uma API REST.
+
+* **Definir um valor inicial dinâmico para o átomo:** <br>
+Ao definir o seletor async como valor padrão para o átomo, todos os eventos iniciais passam a vir da API.
+
+* **Criar uma ferramenta de depuração:** <br>
+Agora fica mais simples de entender as mudanças no estado, uma vez que implementamos um componente que faz log cada vez que o estado é manipulado.
+
 -----
 
 # Getting Started with Create React App
