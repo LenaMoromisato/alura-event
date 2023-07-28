@@ -33,6 +33,12 @@ Ao extrair a comunicação com o recoil em hooks, estamos desacoplados da lib em
 * **Aumentar a coesão:** <br>
 Ao remover a responsabilidade de alterar o estado para os hooks, nossos componentes ficam mais coesos e não precisam se preocupar com as implementações relacionadas a manipular o estado.
 
+* **Derivar estados com seletores:** <br>
+Mantendo assim a responsabilidade bem definida para cada parte do sistema.
+
+* **Adicionar funcionalidades de forma incremental:** <br>
+Primeiro, colocamos o filtro para funcionar. Na sequência, melhoramos a implementação e extraímos a lógica.
+
 -----
 
 # Getting Started with Create React App
