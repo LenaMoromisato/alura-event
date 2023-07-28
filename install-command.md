@@ -10,3 +10,5 @@
 
 * Erro: O arquivo não pode ser carregado porque a execução de scripts foi desabilitada neste sistema.
 Abra o powershell do windows como administrador e execute o comando Set-ExecutionPolicy RemoteSigned
+
+* json-server --watch db.json -p 8080
